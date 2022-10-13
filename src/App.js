@@ -309,7 +309,7 @@ const handleClick = (e)=>{
         <p className='Q'>出題数：{count}</p>
         <p className='C'>正解数：{correct}</p>
         <div className='quiz'>
-          <p className='quiz2'>回答した問題</p>
+          <p className='quiz2'>回答した問題k</p>
         </div>
         <div>
           <ul>
