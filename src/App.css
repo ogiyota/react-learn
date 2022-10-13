@@ -12,9 +12,10 @@ button{
   font-size: 4rem;
   line-height: 8rem;
   margin: 1rem;
+  text-align: center;
   -webkit-appearance: none;
   border-radius: 0%;
-  text-align: center;
+  
 }
 
 li{
@@ -41,6 +42,7 @@ li{
 
 .i{
   position: relative;
+  
 }
 
 .maru{
@@ -57,6 +59,12 @@ li{
 }
 
 ul{
+  margin: 0% auto;
+  padding: 0;
+  width: 95%;
+}
+
+.T{
   width: 95%;
   margin: 0% auto;
 }
