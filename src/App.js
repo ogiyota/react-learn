@@ -309,24 +309,24 @@ const handleClick = (e)=>{
         <p className='Q'>出題数：{count}</p>
         <p className='C'>正解数：{correct}</p>
         <div className='quiz'>
-          <p className='quiz2'>回答した問題</p>
-        </div>
-        <div>
-          <ul>
-          {word.map((aaa , index) => (
-              <li className="miss" key={index}>
-                {aaa.text}&emsp;/&emsp;{"正解は" + aaa.ansser}
-              </li>
-          ))}
-          {correctWord.map((bbb , index2) => (
-              <li className="correct" key={index2}>
-                {bbb.correctText}&emsp;/&emsp;{"正解は" + bbb.correctAnsser}
-              </li>
-          ))}
-          </ul>
-        </div>
+        <p className='quiz2'>回答した問題</p>
+      </div>
+      <div>
+        <ul>
+        {word.map((aaa , index) => (
+            <li className="miss" key={index}>
+              {aaa.text}&emsp;/&emsp;{"正解は" + aaa.ansser}
+            </li>
+        ))}
+        {correctWord.map((bbb , index2) => (
+            <li className="correct" key={index2}>
+              {bbb.correctText}&emsp;/&emsp;{"正解は" + bbb.correctAnsser}
+            </li>
+        ))}
+        </ul>
       </div>
     </div>
+  </div>
   );
 }
 
