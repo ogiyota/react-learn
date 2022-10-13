@@ -8,7 +8,7 @@ import { useEffect } from 'react';
 let num = Math.floor( Math.random() * 54);
 
 const answer =[
-  "○",
+  "◯",
   "×"
 ]
 
@@ -253,7 +253,7 @@ useEffect(()=>{
 
 const handleClick = (e)=>{
   if ( qs.A === e.target.value){
-      setAa("⚪︎");
+      setAa("◯");
       setTimeout(() => {
         setAa("");
       }, 1000);
@@ -304,7 +304,7 @@ const handleClick = (e)=>{
         <h3>{qs.Q}</h3>
       </div>
       <div className='buttona'>
-        <button value={"○"} onClick={ handleClick} >{answer[0]}</button>
+        <button value={"◯"} onClick={ handleClick} >{answer[0]}</button>
         <button value={"×"} className="buttonb" onClick={ handleClick} >{answer[1]}</button>
         <p className='Q'>出題数：{count}</p>
         <p className='C'>正解数：{correct}</p>
