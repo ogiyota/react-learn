@@ -11,9 +11,14 @@
   font-size: 3.3;
 }
 button{
-  width: 25%;
+  width: 8rem;
+  height: 4rem;
   font-size: 3rem;
-  margin: 0.6rem;
+  line-height: 4rem;
+  margin: 1rem;
+  align-items: center;
+  
+  
 }
 
 li{
