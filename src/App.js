@@ -256,7 +256,7 @@ const handleClick = (e)=>{
       setAa("◯");
       setTimeout(() => {
         setAa("");
-      }, 1000);
+      }, 500);
       setTimeout(() => {
         setCorrectWord([
           ...correctWord,
@@ -267,12 +267,12 @@ const handleClick = (e)=>{
         ]);
           setCount(count + 1);
           setCorrect(correct + 1);
-      }, 1000);
+      }, 500);
   }else{
     setBb("×");
     setTimeout(() => {
       setBb("");
-    }, 1000);
+    }, 500);
     setTimeout(() => {
       setWord([
         ...word,
@@ -282,7 +282,7 @@ const handleClick = (e)=>{
         }
       ]);
       setCount(count + 1)
-    }, 1000);
+    }, 500);
     
   }
 }
