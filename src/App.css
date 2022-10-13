@@ -8,13 +8,13 @@
 }
 
 .buttonb{
-  font-size: 3.3;
+  font-size: 3.3rem;
 }
 button{
-  width: 8rem;
-  height: 4rem;
+  width: 9rem;
+  height: 5rem;
   font-size: 3rem;
-  line-height: 4rem;
+  line-height: 5rem;
   margin: 1rem;
   align-items: center;
   
