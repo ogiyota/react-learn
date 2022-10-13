@@ -2,27 +2,7 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
 .App-link {
   color: #61dafb;
@@ -35,4 +15,59 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.buttona{
+  padding-top: 5rem;
+  margin: 0% auto;
+}
+button{
+  width: 30%;
+  height: 8rem;
+  font-size: 4rem;
+  line-height: 8rem;
+  margin: 1rem;
+}
+
+li{
+  list-style: none;
+  display: flex;
+  line-height: 2rem;
+  padding-top: 2rem;
+}
+.miss{
+  color: red;
+}
+
+.Q{
+  font-size: 1.3rem;
+}
+.C{
+  font-size: 1.3rem;
+}
+
+.quiz{
+  padding-top: 2rem;
+  font-size: 1.5rem;
+}
+
+.i{
+  position: relative;
+}
+
+.maru{
+  position: absolute;
+  transform: translate(-50%, -10%);
+  font-size: 7rem;
+  color: red;
+}
+.batsu{
+  position: absolute;
+  transform: translate(-50%, -10%);
+  font-size: 8rem;
+  color: blue;
+}
+
+ul{
+  padding-right: 2rem;
 }
