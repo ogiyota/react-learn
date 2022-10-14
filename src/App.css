@@ -25,7 +25,10 @@ li{
   list-style: none;
   display: flex;
   line-height: 2rem;
-  padding-top: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px black solid;
+  
 }
 .miss{
   color: red;
@@ -70,4 +73,14 @@ ul{
 .T{
   width: 95%;
   margin: 0% auto;
+}
+
+.S{
+  display: flex;
+  margin-top: 0;
+}
+.S p {
+  display: block;
+  padding-left: 1rem;
+  font-size: 0.4rem;
 }
