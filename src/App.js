@@ -419,6 +419,7 @@ const question = [
 
 
 
+
 function App() {
 
   let num = Math.floor( Math.random() * question.length);
@@ -511,7 +512,7 @@ const handleClick = (e)=>{
       </div>
     </div>
     <div className='S'>
-        <p>更新日:2022/10/17</p>
+        <p>更新日:2023/2/5</p>
         <p>合計問題数:{question.length}</p>
       </div>
   </div>
